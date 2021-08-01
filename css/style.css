@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: sans-serif;
+}
+
+/* navbar css style code here */
+
+.manu-bar {
+  background-color: rgb(241, 255, 248);
+  height: 100vh;
+}
+.image {
+  margin-left: 100px;
+  float: left;
+  padding: 14px 0;
+}
+.main-section {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 10px rgb(224, 224, 224);
+  display: flow-root;
+  z-index: 1;
+}
+.main-section .image img {
+  width: 200px;
+}
+.manu-item {
+  float: right;
+  line-height: 90px;
+  margin-right: 100px;
+}
+.manu-item ul {
+  list-style-type: none;
+}
+.manu-item ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.manu-item ul li a {
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  font-weight: 700;
+}
+.manu-item ul li .btn:hover {
+  color: rgb(1, 167, 209);
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 4px solid rgb(255, 78, 78);
+}
+.botton a {
+  background-color: rgb(29, 151, 82);
+  color: white !important;
+  padding: 15px 40px;
+  border-radius: 50px;
+  transition: 0.7s;
+}
+.botton a:hover {
+  box-shadow: 1px 1px 10px rgb(168, 168, 168);
+  background-color: rgb(0, 180, 171);
+}
+
+/* second section css stylr */
+.part-1 {
+  float: left;
+  width: 35%;
+  margin-left: 100px;
+}
+.p-1 {
+  margin-top: 38%;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: rgb(231, 9, 65);
+}
+.part-1 h1 {
+  color: rgb(68, 68, 68);
+  font-size: 45px;
+}
+.part-1 span {
+  color: rgb(34, 161, 89);
+  display: inline-block;
+  margin-top: 18px;
+}
+.part-1 .p-2 {
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+  line-height: 26px;
+  word-spacing: 2px;
+  margin-top: 30px;
+}
+.part-1 .botton-2 {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  background-color: rgb(29, 151, 82);
+  color: white;
+  font-weight: 700;
+  padding: 20px 35px;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: 0.7s;
+}
+.part-1 .botton-2:hover {
+  background-color: rgba(0, 128, 128, 0.61);
+  box-shadow: 3px 3px 20px 3px rgb(187, 187, 187);
+}
+.part-2 {
+  float: right;
+  width: 50%;
+  margin-right: 50px;
+}
+.part-2 img {
+  width: 100%;
+  margin-top: 20%;
+}
+
+/* third section style sheet here */
+.card {
+  transition: 0.8s;
+}
+.card:hover {
+  transform: rotate(360deg);
+}
+.parent-card {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.parent-card .card {
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: rgb(255, 255, 255);
+  padding: 50px 0;
+  box-shadow: 2px 2px 25px 2px rgb(218, 218, 218);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card img {
+  margin-left: 36%;
+  width: 30%;
+}
+.card h1 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: seagreen;
+  text-align: center;
+}
+.card p {
+  margin-top: 15px;
+  color: rgb(63, 63, 63);
+  text-align: center;
+}
+
+/* four section style sheet here */
+.third-part .hading {
+  color: seagreen;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+.main-card {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.animation-1 {
+  transition: 0.3s;
+}
+.animation-1:hover {
+  transform: translateY(-20px);
+}
+.main-card .child-card {
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: rgb(255, 255, 255);
+  padding: 16px;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 25px 5px rgb(219, 219, 219);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.main-card .child-card img {
+  width: 100%;
+}
+.child-card h1 {
+  margin-top: 18px;
+  color: rgb(66, 66, 66);
+}
+.child-card p {
+  margin-top: 13px;
+  font-weight: 600;
+  color: rgb(66, 66, 66);
+}
+.child-card a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  background-color: rgb(29, 151, 82);
+  color: white;
+  font-weight: 700;
+  padding: 10px 22px;
+  font-size: 14px;
+  border-radius: 50px;
+  transition: 0.7s;
+}
+.child-card a:hover {
+  background-color: rgba(0, 189, 82, 0.932);
+  box-shadow: 3px 3px 15px 3px rgb(173, 173, 173);
+}
+.main {
+  margin-top: 20px;
+  display: flow-root;
+  margin-bottom: 10px;
+}
+.main-date {
+  float: left;
+  display: flow-root;
+}
+.sit-number {
+  float: right;
+}
+.child-card .main-date .cleander-img {
+  width: 24px;
+  float: left;
+  margin-top: 7px;
+}
+.date-item {
+  float: right;
+  margin-left: 10px;
+}
+
+.child-card .main-data-2 .people-img {
+  width: 24px;
+  float: right;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+/* Testimonial css code here */
+.testimonial h1 {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 45px;
+  color: rgb(73, 73, 73);
+}
+.main-testimonial {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  clear: both;
+  display: table;
+  margin-bottom: 50px;
+}
+.testimonial-img img {
+  float: left;
+  width: 100px;
+  margin-left: 28%;
+  border: 1px solid seagreen;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.testimonial-data {
+  width: 45%;
+  float: right;
+  margin-right: 15%;
+  line-height: 25px;
+  word-spacing: 3px;
+  margin-top: 12px;
+  text-align: justify;
+}
+
+/* footer section css style here */
+.footer-section {
+  background-color: rgb(34, 31, 48);
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(192, 192, 192);
+}
+.main-footer {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+}
+.footer-1 {
+  width: 40%;
+}
+.footer-1 p {
+  line-height: 30px;
+}
+.footer-2 {
+  width: 20%;
+  margin-left: 10%;
+  line-height: 28px;
+}
+.footer-2 h2 {
+  margin-bottom: 18px;
+}
+.footer-2 a {
+  display: block;
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+}
+.footer-3 {
+  width: 20%;
+  margin-left: 10%;
+  line-height: 28px;
+}
+.footer-3 h2 {
+  margin-bottom: 18px;
+}
+.footer-3 a {
+  display: block;
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+}
+.footer-4 {
+  width: 20%;
+  margin-left: 10%;
+  line-height: 28px;
+}
+.footer-4 h2 {
+  margin-bottom: 18px;
+}
+.footer-4 a {
+  display: block;
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+}
